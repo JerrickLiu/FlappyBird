@@ -4,8 +4,8 @@ import sys
 import random
 pygame.init()
 
-dead_sound = pygame.mixer.Sound('Dumpster Door Hit.wav')
-pygame.mixer.music.load('South of the Border.wav')
+#dead_sound = pygame.mixer.Sound('Dumpster Door Hit.wav')
+#pygame.mixer.music.load('South of the Border.wav')
 class FlappyBird:
     def __init__(self):
         self.screen = pygame.display.set_mode((400, 708))
